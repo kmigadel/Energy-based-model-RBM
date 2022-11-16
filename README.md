@@ -102,7 +102,7 @@ Pour mieux conceptualiser ce qui va suivre, nous allons nous placer dans un cas 
 
 Une manière d'aborder le sujet serait d'utiliser les $\textbf{Machines de Boltzmann Restreintes}$, qui font partie des modèles qui implèmente les modèles à énergie. L'architecture d'un RBM peut être observée dans l'image ci-dessous.
 
-![image.png](attachment:d47e3688-157f-4eaa-bb34-b0a7961f010b.png)
+<img src="assets/img/RBM.png" alt="RBM" title="RBM">
 
 Comme le démontre l'image ci-dessus, l'architecture est définie de la manière suivante :
 
@@ -220,8 +220,7 @@ Si l'on met le nombre d'unités cachées arbitrairement grand, on peut en princi
 
 En calculant la fonction d'énergie, nous nous intéresserons au minimum local de cette dernière. Ainsi, lors de la phase d'entraînement du modèle, nous allons faire observer une partie de notre jeu de données (ici, des images de digit), et faire varier les valeurs de nos paramètres $\theta = (a, b, W)$ afin d'approcher un mimimum local.
 
-![image.png](attachment:226304fa-23f3-4d5f-a071-283ddfc76c20.png)
-
+<img src="assets/img/Energy.png" alt="Energy" title="Energy">
 
 On commencera de ce fait par un vecteur de features (par exemple une image d'un digit) et on minimisera l'énergie, en trouvant une nouvelle paire de $v$ et $h$ où nos vecteurs visibles auront été modifiés dans la figure ci-dessus on dit qu'ils se sont rapprochés du minimum d'énergie, ici représenté par les points rouges sur le graphe.
 
