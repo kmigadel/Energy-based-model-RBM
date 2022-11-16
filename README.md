@@ -102,7 +102,7 @@ Pour mieux conceptualiser ce qui va suivre, nous allons nous placer dans un cas 
 
 Une manière d'aborder le sujet serait d'utiliser les $\textbf{Machines de Boltzmann Restreintes}$, qui font partie des modèles qui implèmente les modèles à énergie. L'architecture d'un RBM peut être observée dans l'image ci-dessous.
 
-<img src="assets/img/RBM.png" alt="RBM" title="RBM">
+![RBM](assets/img/RBM.png?raw=true "RBM")
 
 Comme le démontre l'image ci-dessus, l'architecture est définie de la manière suivante :
 
