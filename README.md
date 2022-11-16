@@ -220,7 +220,7 @@ Si l'on met le nombre d'unités cachées arbitrairement grand, on peut en princi
 
 En calculant la fonction d'énergie, nous nous intéresserons au minimum local de cette dernière. Ainsi, lors de la phase d'entraînement du modèle, nous allons faire observer une partie de notre jeu de données (ici, des images de digit), et faire varier les valeurs de nos paramètres $\theta = (a, b, W)$ afin d'approcher un mimimum local.
 
-![Energy](https://github.com/kmigadel/Energy-based-model-RBM/assets/img/Energy.png)
+![Energy](https://github.com/kmigadel/Energy-based-model-RBM/master/blob/assets/img/Energy.png)
 
 On commencera de ce fait par un vecteur de features (par exemple une image d'un digit) et on minimisera l'énergie, en trouvant une nouvelle paire de $v$ et $h$ où nos vecteurs visibles auront été modifiés dans la figure ci-dessus on dit qu'ils se sont rapprochés du minimum d'énergie, ici représenté par les points rouges sur le graphe.
 
